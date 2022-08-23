@@ -1,0 +1,19 @@
+{
+  "name": "stk-advertising-menu",
+  "version": "1.0.0",
+  "description": "SIM Stk Advertising Menu",
+  "main": "server.js",
+  "scripts": {
+    "start": "server.js"
+  },
+  "license": "",
+  "dependencies": {
+    "http": "", 
+    "https": "",
+    "mysql": "",
+    "apigee-access":"",
+    "querystring": "",
+    "moment":"",
+    "uuid":"3.3.2"
+  }
+}

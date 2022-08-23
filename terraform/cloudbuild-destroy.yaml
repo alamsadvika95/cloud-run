@@ -1,0 +1,25 @@
+
+steps:
+- id: 'terraform init'
+  name: 'hashicorp/terraform:1.1.7'
+  entrypoint: 'sh'
+  args: 
+  - '-c'
+  - |
+      cd terraform/
+      terraform init 
+
+# [START tf-destroy]
+- id: 'terraform destroy'
+  name: 'hashicorp/terraform:1.1.7'
+  entrypoint: 'sh'
+  args: 
+  - '-c'
+  - |    
+      cd terraform/
+      terraform destroy -auto-approve
+# [END tf-apply]
+timeout: 1800s
+
+
+

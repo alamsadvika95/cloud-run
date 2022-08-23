@@ -1,0 +1,20 @@
+{
+  "name": "provisioning-data-api",
+  "version": "1.0.0",
+  "description": "Provisioning Data API",
+  "main": "server.js",
+  "scripts": {
+    "start": "server.js"
+  },
+  "license": "",
+  "dependencies": {
+    "http": "", 
+    "mysql": "",
+    "moment":"",
+    "request":"",
+    "uuid":"",
+    "https":"",
+    "request-debug":"",
+    "crypto-js":""
+  }
+}  
