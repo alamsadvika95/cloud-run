@@ -23,6 +23,19 @@ client.on("error", function(error) {
 
 client.set("key", "alam", redis.print);
 
+const redisHost = process.env.REDIS_HOST;
+console.log("🚀 ~ file: index.js ~ line 27 ~ redisHost", redisHost)
+const redisPort = process.env.REDIS_PORT;
+console.log("🚀 ~ file: index.js ~ line 29 ~ redisPort", redisPort)
+const port = process.env.PORT;
+console.log("🚀 ~ file: index.js ~ line 31 ~ port", port)
+const databaseHost = process.env.DATABASE_HOST;
+console.log("🚀 ~ file: index.js ~ line 33 ~ databaseHost", databaseHost)
+const databaseName = process.env.DATABASE_NAME;
+console.log("🚀 ~ file: index.js ~ line 35 ~ databaseName", databaseName)
+
+
+
 //dotenv
 dotenv.config();
 
