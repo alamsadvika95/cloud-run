@@ -41,7 +41,7 @@ dotenv.config();
 
 //Configuration for Port 
 app.listen(process.env.PORT, () => {
-  console.log( `Backend server is running on port ${process.env.PORT}`);
+  console.log( `Backend server is running on port ${process.env.APP_PORT}`);
 });
 
 //database connection 

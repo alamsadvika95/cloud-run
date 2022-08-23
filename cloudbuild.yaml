@@ -26,6 +26,7 @@ steps:
       - '--vpc-connector=apidb'
       - '--update-secrets=USERNAME=MYSQL_USER:latest'
       - '--update-secrets=DATABASE_PASSWORD=MYSQL_PASSWORD:latest'
+      - '--update-env-vars=APP_PORT=5000'
       - '--update-env-vars=DATABASE_HOST=10.91.32.3'
       - '--update-env-vars=DATABASE_NAME=testing'
       - '--update-env-vars=REDIS_HOST=10.91.33.3'
