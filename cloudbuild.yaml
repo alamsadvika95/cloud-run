@@ -24,7 +24,7 @@ steps:
       - '--platform=managed'
       - '--image=$_GCR_HOSTNAME/$PROJECT_ID/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA'
       - '--vpc-connector=apidb'
-      - '--update-secrets=USERNAME=MYSQL_USER:latest'
+      - '--update-secrets=DATABASE_USERNAME=MYSQL_USER:latest'
       - '--update-secrets=DATABASE_PASSWORD=MYSQL_PASSWORD:latest'
       - '--update-env-vars=APP_PORT=5000'
       - '--update-env-vars=DATABASE_HOST=10.91.32.3'
