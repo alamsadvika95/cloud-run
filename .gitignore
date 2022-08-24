@@ -6,3 +6,4 @@ Jenkinsfile
 test.sh
 whole.database.sql
 .env
+cloudbuild.yaml
