@@ -44,8 +44,8 @@ options:
 substitutions:
   _SERVICE_NAME: mig
   _LABELS: gcb-trigger-id=2f77f32a-be8e-4871-866e-4f60cea618a3
-  _DEPLOY_REGION: us-central1
-  _GCR_HOSTNAME: us.gcr.io
+  _DEPLOY_REGION: asia-southeast2
+  _GCR_HOSTNAME: asia.gcr.io
   _PLATFORM: managed
 tags:
   - gcp-cloud-build-deploy-cloud-run
