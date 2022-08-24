@@ -27,9 +27,9 @@ steps:
       - '--update-secrets=DATABASE_USERNAME=MYSQL_USER:latest'
       - '--update-secrets=DATABASE_PASSWORD=MYSQL_PASSWORD:latest'
       - '--update-env-vars=APP_PORT=5000'
-      - '--update-env-vars=DATABASE_HOST=10.91.32.3'
+      - '--update-env-vars=DATABASE_HOST=10.45.213.3'
       - '--update-env-vars=DATABASE_NAME=testing'
-      - '--update-env-vars=REDIS_HOST=10.91.33.3'
+      - '--update-env-vars=REDIS_HOST=10.45.212.19'
       - '--update-env-vars=REDIS_PORT=6379'
       - >-
         --labels=managed-by=gcp-cloud-build-deploy-cloud-run,commit-sha=$COMMIT_SHA,gcb-build-id=$BUILD_ID,$_LABELS
